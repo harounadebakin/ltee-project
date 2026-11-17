@@ -36,3 +36,5 @@ BioProject PRJNA295606.
 
 ## Data availability statement
 “Raw reads are in the NCBI Sequence Read Archive under BioProject PRJNA295606 (runs SRR2589044, SRR2584863, SRR2584866). The subset used here is on figshare, https://doi.org/10.6084/m9.figshare.7726454 (CC0). Code and environment: https://github.com/… (MIT), archived at Zenodo (DOI …).”
+
+The reads were trimmed and subsampled by Data Carpentry.
