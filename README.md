@@ -58,3 +58,17 @@ Practice project from the Reproducible and Open Science lessons.
 ## Get the data
 
     pixi exec python scripts/download_data.py
+
+## Container Image & Digest
+
+- **Local Image (`ltee-project:0.1.0`) ID:** `sha256:81bed153219e77dcd4bae9ff6668b06759c82107a73a2bd4fa0df96afb7b594a`
+- **Registry Digest (`ghcr.io`):** `ghcr.io/harounadebakin/ltee-project@sha256:81bed153219e77dcd4bae9ff6668b06759c82107a73a2bd4fa0df96afb7b594a
+
+### Pull Exact Image by Digest
+
+```bash
+docker pull ghcr.io/ada-lovelace/ltee-project@sha256:81bed153219e77dcd4bae9ff6668b06759c82107a73a2bd4fa0df96afb7b594a
+
+## Container
+
+Docker image built from pixi.lock: `docker build --platform linux/amd64 -f containers/Dockerfile --build-arg ENV_NAME=pipeline -t ltee-project:0.1.0 .`
